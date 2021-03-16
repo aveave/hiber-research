@@ -30,8 +30,7 @@ public class AppConfig {
     dataSource.setDriverClassName("com.mysql.jdbc.Driver");
     dataSource.setUrl("jdbc:mysql://localhost:3306/hiberbabl?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false");
     dataSource.setUsername("root");
-    dataSource.setPassword("89056515838q");
-    System.out.println("kek");
+    dataSource.setPassword("root");
     return dataSource;
   }
 
