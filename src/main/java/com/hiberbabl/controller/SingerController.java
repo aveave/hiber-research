@@ -16,7 +16,7 @@ public class SingerController {
     }
 
     /**
-     *  create singer
+     *  create singer test
      * @param singer
      */
     @PostMapping
@@ -36,7 +36,7 @@ public class SingerController {
 
 
     /**
-     * update singer blabla
+     * update singer blabla new
      * @param singer
      */
     @PutMapping
