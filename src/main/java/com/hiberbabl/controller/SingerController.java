@@ -25,7 +25,7 @@ public class SingerController {
     }
 
     /**
-     * get singer
+     * new singer
      * @param id
      * @return
      */
@@ -36,7 +36,7 @@ public class SingerController {
 
 
     /**
-     * update singer
+     * update singer blabla
      * @param singer
      */
     @PutMapping
