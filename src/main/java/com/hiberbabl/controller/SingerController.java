@@ -15,16 +15,30 @@ public class SingerController {
         this.singerService = singerService;
     }
 
+    /**
+     *  create singer
+     * @param singer
+     */
     @PostMapping
     public void createSinger(Singer singer) {
         singerService.save(singer);
     }
 
+    /**
+     * get singer
+     * @param id
+     * @return
+     */
     @GetMapping
     public Singer getSinger(Long id) {
         return singerService.findById(id);
     }
 
+
+    /**
+     * update singer
+     * @param singer
+     */
     @PutMapping
     public void update(Singer singer) {
         singerService.update(singer);
